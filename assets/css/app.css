@@ -1,14 +1,14 @@
 h1{
-    color: red;
+    color: rgb(64, 178, 207);
     background-color: blue;
 }
 
 button{
     color: darkviolet;
-    background-color: tan;
+    background-color: #d2b48c;
 }
 
 p{
     color: white;
-    background-color: grey;
+    background-color: rgba(111, 128, 144, 0.757);
 }
