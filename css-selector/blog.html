@@ -10,12 +10,25 @@
             color: aqua;
         }
 
+        .jokes > p:hover{
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
         a + button{
             background-color: gray;
         }
 
+        section button:hover{
+            background-color: cyan;
+        }
+
         input[type="password"]{
             color: red;
+        }
+
+        section:nth-of-type(2n){
+            background-color: grey;
         }
     </style>
 </head>
@@ -23,6 +36,27 @@
     <h1>Kumpulan Joke Bapack-bapack</h1>
     <input type="text" placeholder="search" value=""> <button>search</button>
     <input type="password" name="" id="">
+    <hr>
+    <section class="jokes">
+        <h3>Udang kalau dari Cirebon namanya udang rebon kalau dari Inggris? Udang Robin!</h3>
+        <p>Dipublish oleh: <span>John</span></p>
+        <div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, aut et officia ab laboriosam ipsa voluptates nobis, cumque dolores sint illo quasi illum reiciendis est corrupti, earum nisi eius veritatis!</p>
+        </div>
+        <button>Vote +</button>
+    </section>
+    <hr>
+    <section class="jokes">
+        <h3>Alat masak apa yang suka kesel? Paan cii....!</h3>
+        <p>Dipublish oleh: <span>John</span></p>
+        <button>Vote +</button>
+    </section>
+    <hr>
+    <section class="jokes">
+        <h3>Gula, gula apa yang bukan gula merah? Gula Aren't!</h3>
+        <p>Dipublish oleh: <span>John</span></p>
+        <button>Vote +</button>
+    </section>
     <hr>
     <section class="jokes">
         <h3>Udang kalau dari Cirebon namanya udang rebon kalau dari Inggris? Udang Robin!</h3>
