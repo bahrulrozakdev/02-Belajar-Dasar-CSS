@@ -1,6 +1,11 @@
-div{
+div {
     width: 300px;
-    border: 15px solid green;
     padding: 50px;
     margin: 20px;
+}
+
+div {
+    border-style: dotted dashed solid double;
+    border-width: 5px 10px 15px 20px;
+    border-color: aqua;
 }
