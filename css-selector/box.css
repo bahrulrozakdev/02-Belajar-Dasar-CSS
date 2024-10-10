@@ -9,3 +9,12 @@ div {
     border-width: 5px 10px 15px 20px;
     border-color: aqua;
 }
+
+div{
+    /* padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-left: 40px; */
+    /* padding: 10px 40px; */
+    padding: 10px 100px 40px 5px;
+}
