@@ -11,10 +11,12 @@ div {
 }
 
 div{
-    /* padding-top: 10px;
-    padding-right: 40px;
-    padding-bottom: 10px;
-    padding-left: 40px; */
-    /* padding: 10px 40px; */
     padding: 10px 100px 40px 5px;
+}
+
+div{
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
 }
